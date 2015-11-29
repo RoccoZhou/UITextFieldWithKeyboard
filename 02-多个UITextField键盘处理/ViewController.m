@@ -102,9 +102,10 @@
     self.allCities = dict[@"cities"];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+- (void)dealloc {
+#warning 记得移除通知监听
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
 
 

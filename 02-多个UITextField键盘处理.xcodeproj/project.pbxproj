@@ -13,9 +13,9 @@
 		39C5C7E51C05F16000F98E52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39C5C7E31C05F16000F98E52 /* Main.storyboard */; };
 		39C5C7E71C05F16000F98E52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39C5C7E61C05F16000F98E52 /* Assets.xcassets */; };
 		39C5C7EA1C05F16000F98E52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39C5C7E81C05F16000F98E52 /* LaunchScreen.storyboard */; };
-		39C5C8001C05F9A700F98E52 /* GHKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C5C7FF1C05F9A700F98E52 /* GHKeyboardToolbar.m */; settings = {ASSET_TAGS = (); }; };
-		39C5C8021C05F9C700F98E52 /* GHKeyboardToolbar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39C5C8011C05F9C700F98E52 /* GHKeyboardToolbar.xib */; settings = {ASSET_TAGS = (); }; };
-		39C5C8041C05FD2000F98E52 /* cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = 39C5C8031C05FD2000F98E52 /* cities.plist */; settings = {ASSET_TAGS = (); }; };
+		39C5C8001C05F9A700F98E52 /* GHKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C5C7FF1C05F9A700F98E52 /* GHKeyboardToolbar.m */; };
+		39C5C8021C05F9C700F98E52 /* GHKeyboardToolbar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39C5C8011C05F9C700F98E52 /* GHKeyboardToolbar.xib */; };
+		39C5C8041C05FD2000F98E52 /* cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = 39C5C8031C05FD2000F98E52 /* cities.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -316,6 +316,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Wei Feng Hou (76V5688MH4)";
 				INFOPLIST_FILE = "02-多个UITextField键盘处理/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.roc.-2---UITextField----";
